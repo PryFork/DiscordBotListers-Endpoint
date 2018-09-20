@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const helmet = require("helmet");
 const morgan = require("morgan");
-const Ratelimiter = require("./util/Ratelimiter");
+const Ratelimiter = require("./util/Ratelimiter"); // js file
 
 const app = express();
 const ratelimiter = new Ratelimiter();
