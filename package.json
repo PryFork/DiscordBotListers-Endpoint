@@ -1,0 +1,18 @@
+{
+  "name": "dbl-api-endpoint",
+  "version": "1.0.0",
+  "description": "endpoint handlers for dbl's api endpoint with a ratelimiter",
+  "main": "app.js",
+  "scripts": {
+   "start": "node app.js"
+  },
+  "author": "LizcraveYT",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "helmet": "^3.12.0",
+    "morgan": "^1.9.0",
+    "multer": "^1.3.0"
+  }
+}
